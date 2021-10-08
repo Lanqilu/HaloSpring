@@ -12,6 +12,7 @@
         <module>Security-04-SecurityByDatabase</module>
         <module>Security-05-CustomPage</module>
         <module>Security-06-AutoLogin</module>
+        <module>Security-07-CSRF</module>
         <module>Authority-01-HelloAuthority</module>
         <module>Authority-02-HelloAuthority</module>
         <module>Authority-03-Role</module>
