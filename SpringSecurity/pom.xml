@@ -11,15 +11,13 @@
         <module>Security-03-HelloSecurity</module>
         <module>Security-04-SecurityByDatabase</module>
         <module>Security-05-CustomPage</module>
+        <module>Security-06-AutoLogin</module>
         <module>Authority-01-HelloAuthority</module>
         <module>Authority-02-HelloAuthority</module>
         <module>Authority-03-Role</module>
         <module>Authority-04-Custom403Page</module>
         <module>Authority-05-Logout</module>
         <module>Authority-06-Annotation</module>
-        <module>B-SecurityByDatabase</module>
-        <module>C-HelloAuthority</module>
-        <module>E-AutoLogin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
