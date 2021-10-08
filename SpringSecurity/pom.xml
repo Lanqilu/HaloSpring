@@ -15,6 +15,7 @@
         <module>Authority-02-HelloAuthority</module>
         <module>Authority-03-Role</module>
         <module>Authority-04-Custom403Page</module>
+        <module>Authority-05-Logout</module>
         <module>B-SecurityByDatabase</module>
         <module>C-HelloAuthority</module>
         <module>D-Annotation</module>
