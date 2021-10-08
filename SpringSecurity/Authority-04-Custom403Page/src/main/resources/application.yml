@@ -1,0 +1,8 @@
+server:
+  port: 8094
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/spring_security?serverTimezone=GMT%2B8
+    username: root
+    password: mogu2018
