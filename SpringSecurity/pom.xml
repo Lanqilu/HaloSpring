@@ -12,6 +12,7 @@
         <module>Security-04-SecurityByDatabase</module>
         <module>Security-05-CustomPage</module>
         <module>Authority-01-HelloAuthority</module>
+        <module>Authority-02-HelloAuthority</module>
         <module>B-SecurityByDatabase</module>
         <module>C-HelloAuthority</module>
         <module>D-Annotation</module>
