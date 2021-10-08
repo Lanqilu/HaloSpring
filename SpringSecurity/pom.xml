@@ -9,6 +9,8 @@
         <module>Security-01-HelloSecurity</module>
         <module>Security-02-HelloSecurity</module>
         <module>Security-03-HelloSecurity</module>
+        <module>Security-04-SecurityByDatabase</module>
+        <module>Security-05-CustomPage</module>
         <module>B-SecurityByDatabase</module>
         <module>C-HelloAuthority</module>
         <module>D-Annotation</module>
