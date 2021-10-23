@@ -20,29 +20,17 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
+    @Autowired
+    TokenStore tokenStore;
+
     public static final String RESOURCE_ID = "res1";
 
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) {
         // 资源 id
         resources.resourceId(RESOURCE_ID)
-                // 验证令牌的服务
-                .tokenServices(tokenService())
+                .tokenStore(tokenStore)
                 .stateless(true);
-    }
-
-
-    /**
-     * 资源服务令牌解析服务
-     */
-    @Bean
-    public ResourceServerTokenServices tokenService() {
-        // 使用远程服务请求授权服务器校验 token,必须指定校验 token 的url、client_id，client_secret
-        RemoteTokenServices service = new RemoteTokenServices();
-        service.setCheckTokenEndpointUrl("http://localhost:53020/uaa/oauth/check_token");
-        service.setClientId("c1");
-        service.setClientSecret("secret");
-        return service;
     }
 
     @Override

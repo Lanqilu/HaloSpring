@@ -1,4 +1,4 @@
-package com.halo.security.distributed.uaa.config;
+package com.halo.security.distributed.order.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
