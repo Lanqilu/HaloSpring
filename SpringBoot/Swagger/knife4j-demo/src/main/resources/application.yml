@@ -1,0 +1,17 @@
+server:
+  port: 7788
+halo:
+  swagger:
+    enabled: true # 是否启用 Swagger
+    version: 0.1
+    # base-package: com.halo.controller # 不分组情况
+    # 分组情况
+    docket:
+      user:
+        title: 用户模块
+        group: 用户模块组
+        base-package: com.halo.controller.user
+      menu:
+        title: 菜单模块
+        group: 菜单模块组
+        base-package: com.halo.controller.menu
